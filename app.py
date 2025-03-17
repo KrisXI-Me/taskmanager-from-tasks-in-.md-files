@@ -1,12 +1,4 @@
-/*************  ✨ Codeium Command 🌟  *************/
 import os
-import sys
-
-# Check if PySide6 is installed
-if not hasattr(sys, 'pyside_version'):
-    print("PySide6 is not installed. Install it with `pip install pyside6`.")
-    sys.exit()
-/******  3c324834-fd32-4585-a90a-ea5b37b82a3e  *******/
 import re
 from PySide6.QtWidgets import (
     QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
